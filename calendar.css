@@ -1,0 +1,94 @@
+#Calendar {
+	background:#f9eaa7;
+}
+.Calendar-small {
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    overflow: hidden;
+    padding: 10px 5px 50px 5px;
+    width: 580px;
+}
+.Calendar-large{ width:100%;
+ border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    overflow: hidden;
+    padding: 10px 0;
+
+}
+#Calendar td {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	border:2px solid #F9EAA7;
+	border-top:10px solid #F9EAA7;
+	border-bottom:10px solid #F9EAA7;
+	padding:10px 5px;
+}
+
+#Calendar .cMonth {
+    font-family: myriad pro,arial,helvetica,verdana;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#Calendar .wDays {
+	font-weight:bold;
+	text-align:center;
+	background-color:#fff;
+	
+	border-top:30px solid #F9EAA7;
+}
+
+#Calendar .mNav {
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+#Calendar table td a {
+	text-decoration:none;
+	color:#000;
+}
+
+#Calendar table td a:hover {
+	text-decoration:underline;
+}
+
+
+#Calendar .available {
+	text-align:right;
+	background-color:#fef9e6;
+	color:#000;
+	max-width:45px;
+}
+
+#Calendar .booked {
+	text-align:center;
+	background-color:#F00;
+	color:#FFF;
+}
+.small-box-container{ width:100%; min-height:100px;}
+.small-box-container a{ width:20px; height:20px; background:red; margin:1px; float:left;}
+
+.bottom-row{}
+
+.bottom-row td{ padding:30px 5px  0px 5px !important;}
+
+.label-div {
+    margin: 0 auto;
+    width: 70%;
+}
+.label-div a {
+    background: none repeat scroll 0 0 #FF0000;
+    float: left;
+    height: 20px;
+    margin-right: 15px;
+    width: 20px;
+}
+.label-div label{}
